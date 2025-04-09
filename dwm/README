@@ -1,0 +1,9 @@
+Configuration
+-------------
+The configuration of dwm is done by creating a custom config.h
+and (re)compiling the source code.
+
+Dependencies
+------------
+
+noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-ubuntu-mono-nerd rofi feh alacritty flameshot
