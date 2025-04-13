@@ -87,7 +87,7 @@ size = 12
 
 
 [font.normal]
-family = "monospace"
+family = "Iosevka Nerd Font"
 style = "Regular"
 
 [font.offset]
