@@ -1,0 +1,52 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        colors = true
+#        interval = 5
+	output_format = "i3bar"
+	color_good = "#50FA7B"
+	color_degraded = "#F1FA8C"
+	color_bad = "#FF5555"
+	markup = "pango"
+}
+
+#order += "ipv6"
+order += "wireless _first_"
+#order += "ethernet _first_"
+#order += "battery all"
+#order += "disk /"
+#order += "load"
+order += "cpu_temperature 0"
+order += "memory"
+#order += "read_file BRIGHTNESS"
+order += "volume master"
+#order += "tztime local"
+
+wireless _first_ {
+	color_bad = "#4d5168"
+        format_up = " <span font='Iosevka Nerd Font Regular'></span>%quality %essid "
+        format_down = " <span font='Iosevka Nerd Font Regular'></span> "
+}
+
+cpu_temperature 0 {
+	format = " <span font='Iosevka Nerd Font Regular'></span> %degrees °C "
+}
+
+memory {
+        format = " <span color='#50fa7b'><span font='Iosevka Nerd Font Regular'></span> %used</span> "
+        threshold_degraded = "1G"
+        #format_degraded = "MEMORY < %available"
+	format_degraded = " <span><span font='Iosevka Nerd Font Regular'></span> %used</span> "
+}
+
+volume master {
+        format = " <span color='#caa9fa'><span font='Iosevka Nerd Font Regular'></span> %volume</span> "
+        format_muted = " <span color='#f776c0'><span font='Iosevka Nerd Font Regular'></span> %volume</span> "
+        device = "pulse"
+}
