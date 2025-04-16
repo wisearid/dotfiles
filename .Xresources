@@ -17,3 +17,9 @@
 *.color14:    #9AEDFE
 *.color7:     #BFBFBF
 *.color15:    #E6E6E6
+
+
+
+
+*scrollBar: false
+*font: xft:Iosevka Term Nerd Font:style=Regular:size=13
