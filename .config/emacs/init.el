@@ -28,7 +28,7 @@
 (column-number-mode)
 
 ;; Font
-(set-face-attribute 'default nil :font "Hack" :height 120)
+(set-face-attribute 'default nil :font "Iosevka Nerd Font" :height 120)
 
 ;; Theme - Dracula
 (use-package dracula-theme

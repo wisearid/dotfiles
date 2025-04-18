@@ -1,11 +1,10 @@
 #!/bin/bash
-lxsession &
+lxpolkit &
 xfsettingsd &
 picom &
 dunst &
 xrandr --output HDMI-0 --mode 3440x1440 --rate 180 &
 slstatus &
 nitrogen --restore &
-nm-manager-applet &
-volume-icon &
 exec dwm
+

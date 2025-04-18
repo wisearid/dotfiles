@@ -22,4 +22,4 @@
 
 
 *scrollBar: false
-*font: xft:Iosevka Term Nerd Font:style=Regular:size=13
+urxvt.font: xft:Iosevka Term Nerd Font:style=Regular:size=13
