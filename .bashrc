@@ -13,10 +13,14 @@ alias grep='grep --color=auto'
 export TERMINAL='st'
 export BROWSER='librewolf'
 export EDITROR='emacs'
-export MANPAGER='emacs'
-
+export MANPAGER='mcview'
+export GTK_THEME='Dracula'
 
 alias htop='htop -t'
+alias merge='xrdb -merge ~/.Xresources'
+alias unlock='sudo rm /var/lib/pacman/db.lck'
+
+
 
 # get current branch in git repo
 function parse_git_branch() {
