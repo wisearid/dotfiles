@@ -1,4 +1,4 @@
-#
+
 # ~/.bashrc
 #
 
@@ -12,7 +12,7 @@ alias grep='grep --color=auto'
 
 export TERMINAL='st'
 export BROWSER='librewolf'
-export EDITROR='emacs'
+export EDITOR='emacs'
 export MANPAGER='mcview'
 export GTK_THEME='Dracula'
 
