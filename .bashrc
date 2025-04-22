@@ -12,9 +12,12 @@ alias grep='grep --color=auto'
 
 export TERMINAL='st'
 export BROWSER='librewolf'
-export EDITOR='emacs'
-export MANPAGER='mcview'
+export EDITOR='nvim'
+export MANPAGER='bat'
 export GTK_THEME='Dracula'
+export PATH=~/.local/bin:$PATH
+
+
 
 alias htop='htop -t'
 alias merge='xrdb -merge ~/.Xresources'

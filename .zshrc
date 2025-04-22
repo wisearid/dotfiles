@@ -11,9 +11,10 @@ alias unlock='sudo rm /var/lib/pacman/db.lck'
 # Environment variables
 export TERMINAL='st'
 export BROWSER='librewolf'
-export EDITOR='emacs'
+export EDITOR='nvim'
 export MANPAGER='mcview'
 export GTK_THEME='Dracula'
+export PATH=~/.local/bin:$PATH
 
 # Git: branch and status
 function parse_git_branch() {
