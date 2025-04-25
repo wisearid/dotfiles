@@ -1,0 +1,61 @@
+[Default Applications]
+Images (sxiv)
+image/jpeg=sxiv.desktop
+image/png=sxiv.desktop
+image/webp=sxiv.desktop
+image/svg+xml=sxiv.desktop
+
+GIFs
+image/gif=mpv.desktop
+
+Code and Text (nvim)
+text/plain=nvim.desktop
+text/x-csrc=nvim.desktop
+text/x-shellscript=nvim.desktop
+text/x-python=nvim.desktop
+text/x-lua=nvim.desktop
+text/markdown=nvim.desktop
+text/x-config=nvim.desktop
+application/json=nvim.desktop
+application/xml=nvim.desktop
+application/x-yaml=nvim.desktop
+application/x-tex=nvim.desktop
+application/javascript=nvim.desktop
+
+Media (MPV)
+audio/mpeg=mpv.desktop
+audio/ogg=mpv.desktop
+audio/flac=mpv.desktop
+audio/wav=mpv.desktop
+audio/x-wav=mpv.desktop
+audio/x-flac=mpv.desktop
+video/mp4=mpv.desktop
+video/x-matroska=mpv.desktop
+video/webm=mpv.desktop
+video/x-msvideo=mpv.desktop
+
+Playlists
+audio/x-mpegurl=mpv.desktop
+application/x-mpegurl=mpv.desktop
+
+Web & Documents (Librewolf)
+text/html=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+application/pdf=librewolf.desktop
+
+Fonts
+application/x-font-ttf=librewolf.desktop
+application/x-font-otf=librewolf.desktop
+application/font-woff=librewolf.desktop
+application/font-woff2=librewolf.desktop
+
+Torrent files
+application/x-bittorrent=rtorrent.desktop
+
+Wine Apps
+application/x-ms-dos-executable=wine.desktop
+application/x-msdownload=wine.desktop
+application/x-msi=wine.desktop
+application/x-ms-ne-executable=wine.desktop
+
+
