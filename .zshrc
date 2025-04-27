@@ -12,7 +12,7 @@ alias unlock='sudo rm /var/lib/pacman/db.lck'
 export TERMINAL='st'
 export BROWSER='librewolf'
 export EDITOR='nvim'
-export MANPAGER='mcview'
+export MANPAGER='bat
 export GTK_THEME='Dracula'
 export PATH=~/.local/bin:$PATH
 
