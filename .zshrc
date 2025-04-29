@@ -7,6 +7,7 @@ alias grep='grep --color=auto'
 alias htop='htop -t'
 alias merge='xrdb -merge ~/.Xresources'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
+alias e='exit'
 
 # Environment variables
 export TERMINAL='st'

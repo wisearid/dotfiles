@@ -22,7 +22,7 @@ export PATH=~/.local/bin:$PATH
 alias htop='htop -t'
 alias merge='xrdb -merge ~/.Xresources'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
-
+alias e='exit'
 
 
 # get current branch in git repo
