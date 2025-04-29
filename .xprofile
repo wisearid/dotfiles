@@ -1,3 +1,0 @@
-export EDITOR=emacs
-export GTK_THEME=Dracula
-export XDG_CURRENT_DESKTOP=XFCE
