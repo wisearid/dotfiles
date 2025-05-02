@@ -50,7 +50,7 @@ application/font-woff=librewolf.desktop
 application/font-woff2=librewolf.desktop
 
 Torrent files
-application/x-bittorrent=rtorrent.desktop
+application/x-bittorrent=qbittorrent.desktop
 
 Wine Apps
 application/x-ms-dos-executable=wine.desktop

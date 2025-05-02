@@ -13,7 +13,7 @@ alias e='exit'
 export TERMINAL='st'
 export BROWSER='librewolf'
 export EDITOR='nvim'
-export MANPAGER='bat
+export MANPAGER='bat'
 export GTK_THEME='Dracula'
 export PATH=~/.local/bin:$PATH
 

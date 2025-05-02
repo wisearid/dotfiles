@@ -13,16 +13,16 @@ alias grep='grep --color=auto'
 export TERMINAL='st'
 export BROWSER='librewolf'
 export EDITOR='nvim'
-export MANPAGER='bat'
+export MANPAGER='nvim +Man!'
 export GTK_THEME='Dracula'
 export PATH=~/.local/bin:$PATH
-
+export XDG_CURRENT_DESKTOP=XFCE
 
 
 alias htop='htop -t'
 alias merge='xrdb -merge ~/.Xresources'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
-alias e='exit'
+alias q='exit'
 
 
 # get current branch in git repo
