@@ -1,0 +1,32 @@
+# General Settings
+set icons true
+set ignorecase true
+
+# Functions
+
+# Make Directory
+cmd mkdir ${{
+	printf "Directory Name: "
+	read ans
+	mkdir $ans
+}}
+
+# Make a File
+
+cmd mkfile ${{
+
+	printf "File Name: "
+	read ans
+	touch $ans
+}}
+
+# Bindings
+
+map dd delete 
+map x cut
+map . set hidden!
+
+
+# Removed Bindings
+map d 
+map m
