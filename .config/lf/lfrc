@@ -1,3 +1,6 @@
+# Get Source (for desktop version)
+source ~/.bashrc
+
 # General Settings
 set icons true
 set ignorecase true
