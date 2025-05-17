@@ -1,0 +1,13 @@
+#!/bin/sh
+
+alias install='sudo pacman -S'
+alias update='sudo pacman -Syyu'
+alias remove='sudo pacman -Rns'
+
+
+
+
+
+
+# To remove a package, which is required by another package, without removing the dependent package: 
+# sudo pacman -Rdd
