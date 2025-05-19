@@ -226,8 +226,8 @@ default_border pixel
 # Autostart
 
 exec --no-startup-id nitrogen --restore
- exec --no-startup-id dunst
-
+exec --no-startup-id dunst
+exec --no-startup-id picom
 # Bar
 
 bar {

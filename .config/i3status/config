@@ -40,7 +40,7 @@ cpu_temperature 0 {
 
 memory {
         format = " <span color='#50fa7b'><span font='Iosevka Nerd Font Regular'></span> %used</span> "
-        threshold_degraded = "1G"
+        threshold_degraded = "%available"
         #format_degraded = "MEMORY < %available"
 	format_degraded = " <span><span font='Iosevka Nerd Font Regular'></span> %used</span> "
 }
