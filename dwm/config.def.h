@@ -19,8 +19,17 @@ static const char *colors[][3] = {
 	[SchemeSel]  ={ white, black, lightgray },
 };
 
+
+/* Autostart */
 static const char *const autostart[] = {
-	"st", NULL,
+	"xrandr", "--output", "HDMI-0", "--mode", "3440x1440", "--rate", "100", NULL,
+	"nitrogen", "--restore", NULL,
+	"lxpolkit", NULL,
+	"picom", NULL,
+	"dunst", NULL,
+	"slstatus", NULL,
+	"otd-daemon", NULL,
+	"/usr/lib/xdg-desktop-portal-gtk", NULL,
 	NULL /* terminate */
 };
 
@@ -81,10 +90,11 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
-	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
+	{ MODKEY,                       XK_n,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+	{ MODKEY,                       XK_f,      togglefullscr,  {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
