@@ -46,7 +46,8 @@ floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
+# tiling_drag modifier titlebar
+tiling_drag modifier
 
 # start a terminal
 bindsym $mod+e exec --no-startup-id st
