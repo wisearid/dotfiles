@@ -28,6 +28,7 @@ static const char *const autostart[] = {
 	"picom", NULL,
 	"dunst", NULL,
 	"slstatus", NULL,
+	"flameshot", NULL,
 	"otd-daemon", NULL,
 	"/usr/lib/xdg-desktop-portal-gtk", NULL,
 	NULL /* terminate */
@@ -115,6 +116,14 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_m,      quit,           {0} },
 };
+
+
+
+/* Misc Keys */ 
+	
+
+	{ MODKEY,			XK_Sm,      spawn,	SHCMD("flameshot gui",
+	
 
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
