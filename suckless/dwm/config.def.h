@@ -119,13 +119,6 @@ static const Key keys[] = {
 };
 
 
-
-/* Misc Keys */ 
-	
-
-	{ MODKEY,			XK_Sm,      spawn,	SHCMD("flameshot gui",
-	
-
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
 static const Button buttons[] = {
