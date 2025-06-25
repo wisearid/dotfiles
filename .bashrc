@@ -23,7 +23,7 @@ alias htop='htop -t'
 alias merge='xrdb -merge ~/.Xresources'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
 alias q='exit'
-
+alias mpvcd='mpv cdda:// /dev/sr0'
 
 # get current branch in git repo
 function parse_git_branch() {
